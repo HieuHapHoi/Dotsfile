@@ -1,0 +1,66 @@
+#!/usr/bin/env bash
+
+# - BSPWM
+# - Config by Leint
+# - facebook.com/leint0708
+
+# GENERAL
+
+# + Workspaces
+for ws in "$(xrandr -q | grep -w 'connected' | cut -d' ' -f1)"; do
+	bspc monitor "$ws" -d '1' '2' '3' '4' '5' '6' '7' '8'
+done
+
+# + Config
+
+# ++ Look
+bspc config normal_border_color '#1a1b26'
+bspc config focused_border_color '#1a1b26'
+bspc config window_gap 8
+bspc config split_ratio 0.5
+bspc config single_monocle true
+bspc config borderless_monocle true
+bspc config gapless_monocle false
+
+bspc config focus_follows_pointer true
+bspc config pointer_follows_focus false
+bspc config pointer_motion_interval 5
+bspc config pointer_modifier mod4
+bspc config pointer_action1 move
+bspc config pointer_action2 resize_side
+bspc config pointer_action3 resize_corner
+
+# + Kill all active processes
+processes=("sxhkd", "polybar", "dunst")
+for process in "${processes[@]}"; do
+	if pgrep -f "$process"; then
+		pkill -9 -f "$process" >/dev/null
+		sleep 0.1
+	fi
+done
+
+# + Random Wallpaper
+feh -z --no-fehbg --bg-fill ~/.config/bspwm/assets/wallpapers/ &
+
+# + Launch sxhkd daemon
+sxhkd -c "$HOME"/.config/bspwm/sxhkdrc &
+
+# + Launch polkit
+pidof -q polkit-gnome-authentication-agent-1 || { /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & }
+
+# + Launch picom
+pidof -q picom || { picom --config "$HOME"/.config/bspwm/picom.conf & }
+
+# + Polybar
+. SetSysVars
+~/.config/bspwm/polybar/scripts/start &
+
+# Launch ibus daemon
+ibus-daemon -drx &
+
+# + Fix cursor
+xsetroot -cursor_name left_ptr
+
+# + Stop turn off screen after 10 min
+xset -dpms &
+xset s off

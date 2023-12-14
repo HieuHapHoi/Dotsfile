@@ -1,0 +1,243 @@
+[2023-12-13 00:39:37.265] [150852] (engine.cpp:425): Created native Engine, time: Wed Dec 13 00:39:37 2023 +07, logPath: /home/leint/.config/discord/0.0.37/modules/discord_voice/, logLevel: 2
+[2023-12-13 00:39:37.266] [150852] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-12-13 00:39:37.266] [150852] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-12-13 00:39:37.266] [150852] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:143): current platform is Linux
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:143): current platform is Linux
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-12-13 00:39:37.266] [150852] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-12-13 00:39:37.266] [150852] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-12-13 00:39:37.266] [150852] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-12-13 00:39:37.266] [150852] (audio_engine.cpp:528): Creating audio engine: standard
+[2023-12-13 00:39:37.266] [150852] (audio_device_impl.cc:364): Init
+[2023-12-13 00:39:37.271] [150852] (audio_device_impl.cc:364): Init
+[2023-12-13 00:39:37.272] [150852] (audio_coding.cpp:149): Using software Opus decoder
+[2023-12-13 00:39:37.272] [150852] (audio_coding.cpp:166): Using software Opus encoder
+[2023-12-13 00:39:37.272] [150852] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-12-13 00:39:37.272] [150852] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-12-13 00:39:37.272] [150852] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-13 00:39:37.272] [150852] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-12-13 00:39:37.272] [150852] (audio_engine.cpp:189): Setting audio input device: 'default'
+[2023-12-13 00:39:37.272] [150852] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-13 00:39:37.272] [150852] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-13 00:39:37.272] [150852] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:573): output: 1
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-13 00:39:37.273] [150852] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-13 00:39:37.273] [150852] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-13 00:39:37.273] [150852] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-13 00:39:37.273] [150852] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:619): output: 1
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-13 00:39:37.273] [150852] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-12-13 00:39:37.273] [150852] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-12-13 00:39:37.273] [150852] (audio_device_impl.cc:914): output: 0
+[2023-12-13 00:39:37.273] [150852] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-13 00:39:37.273] [150852] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-12-13 00:39:37.273] [150852] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-12-13 00:39:37.273] [150852] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-13 00:39:37.273] [150852] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-12-13 00:39:37.273] [150852] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-12-13 00:39:37.273] [150852] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-12-13 00:39:37.273] [150852] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-12-13 00:39:37.273] [150852] (captured_audio_processor.cpp:115): SetNoiseCancellation: 0
+[2023-12-13 00:39:37.273] [150852] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-13 00:39:37.273] [150852] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:193): * audioInput:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:198): * audioOutput:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:193): * audioInput:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:196): - default: Cannon Lake PCH cAVS Digital Microphone ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:196): - Cannon Lake PCH cAVS Headset Mono Microphone + Headphones Stereo Microphone ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:196): - Cannon Lake PCH cAVS Digital Microphone ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:198): * audioOutput:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:193): * audioInput:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:196): - default: Cannon Lake PCH cAVS Digital Microphone ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:196): - Cannon Lake PCH cAVS Headset Mono Microphone + Headphones Stereo Microphone ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:196): - Cannon Lake PCH cAVS Digital Microphone ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:198): * audioOutput:
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:201): - default: Baseus Bowie WM01 ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:201): - Cannon Lake PCH cAVS HDMI / DisplayPort 3 Output ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:201): - Cannon Lake PCH cAVS HDMI / DisplayPort 2 Output ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:201): - Cannon Lake PCH cAVS HDMI / DisplayPort 1 Output ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:201): - Cannon Lake PCH cAVS Speaker + Headphones ()
+[2023-12-13 00:39:37.277] [150852] (engine.cpp:201): - Baseus Bowie WM01 ()
+[2023-12-13 00:39:37.314] [150852] (audio_engine.cpp:189): Setting audio input device: 'default'
+[2023-12-13 00:39:37.314] [150852] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-13 00:39:37.314] [150852] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-13 00:39:37.314] [150852] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-13 00:39:37.314] [150852] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-13 00:39:37.314] [150852] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:573): output: 1
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-13 00:39:37.315] [150852] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-13 00:39:37.315] [150852] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-13 00:39:37.315] [150852] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-13 00:39:37.315] [150852] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:619): output: 1
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-13 00:39:37.315] [150852] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-13 00:39:37.315] [150852] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-13 00:39:37.315] [150852] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-13 00:39:37.315] [150852] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-13 00:39:37.317] [150820] (discord.cpp:765): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 253462, Version Hash: 2d42f59db74a0f7bd597e2871864fc940939aaad"]
+[2023-12-13 00:39:37.383] [150820] (discord.cpp:765): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-12-13 00:39:37.436] [150820] (discord.cpp:765): JS console: ["%c[default]","[NATIVE INFO] host 0.0.37, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, build: null"]
+[2023-12-13 00:39:37.491] [150852] (audio_engine.cpp:189): Setting audio input device: 'default'
+[2023-12-13 00:39:37.491] [150852] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-13 00:39:37.491] [150852] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-13 00:39:37.491] [150852] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-13 00:39:37.491] [150852] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-13 00:39:37.491] [150852] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-13 00:39:37.492] [150852] (audio_device_impl.cc:573): output: 1
+[2023-12-13 00:39:37.492] [150852] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-13 00:39:37.492] [150852] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-13 00:39:37.492] [150852] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-13 00:39:37.492] [150852] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-13 00:39:37.492] [150852] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-13 00:39:37.492] [150852] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-12-13 00:39:37.492] [150852] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-13 00:39:37.492] [150852] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-13 00:39:37.492] [150852] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-13 00:39:37.492] [150852] (audio_device_impl.cc:619): output: 1
+[2023-12-13 00:39:37.492] [150852] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-13 00:39:37.492] [150852] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-13 00:39:37.498] [150820] (discord.cpp:765): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-12-13 00:39:37.573] [150820] (discord.cpp:765): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-12-13 00:39:38.912] [150820] (discord.cpp:765): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-12-13 00:39:40.237] [150820] (discord.cpp:765): JS console: ["Initializing krisp module"]
+[2023-12-13 00:39:41.024] [150820] (discord.cpp:765): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-12-13 00:39:41.032] [150820] (discord.cpp:765): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-12-13 00:39:49.457] [150820] (discord.cpp:765): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-12-13 00:39:49.826] [150820] (discord.cpp:765): JS console: ["%c[LoginQRSocket]","[368ms] got hello, auth timeout=135455ms"]
+[2023-12-13 00:39:49.898] [150820] (discord.cpp:765): JS console: ["%c[LoginQRSocket]","[441ms] connected, handshaking with fingerprint: wCeYH6Yox9nbThaDJr_UO3_m23LxmZbiJ5Wd7SRU9T4"]
+[2023-12-13 00:39:50.135] [150820] (discord.cpp:765): JS console: ["%c[LoginQRSocket]","[677ms] computed nonce proof"]
+[2023-12-13 00:39:50.365] [150820] (discord.cpp:765): JS console: ["%c[LoginQRSocket]","[907ms] handshake complete awaiting remote auth."]
+[2023-12-13 00:40:04.028] [150820] (discord.cpp:765): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2023-12-13 00:40:04.781] [150820] (discord.cpp:765): JS console: ["%c[Flux]","Dispatching LOGIN_SUCCESS"]
+[2023-12-13 00:40:04.815] [150820] (discord.cpp:765): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2023-12-13 00:40:04.829] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-13 00:40:04.834] [150820] (discord.cpp:765): JS console: ["%c[LoginQRSocket]","[15377ms] cleaning up"]
+[2023-12-13 00:40:05.166] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 337 ms"]
+[2023-12-13 00:40:07.260] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[READY] took 2431ms, as c9c3d5aa805a7e7476e25cf5d3eda258"]
+[2023-12-13 00:40:07.331] [150820] (discord.cpp:765): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-13 00:40:07.332] [150820] (discord.cpp:765): JS console: ["%c[DatabaseManager]","removing database (user: 389346832968450063, database: undefined)"]
+[2023-12-13 00:40:07.352] [150820] (discord.cpp:765): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-13 00:40:07.374] [150820] (discord.cpp:765): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-12-13 00:40:07.374] [150820] (discord.cpp:765): JS console: ["%c[Spotify]","Added account: 31yhzuavw7ehjwccm3alkcyhikhu"]
+[2023-12-13 00:40:07.414] [150820] (discord.cpp:765): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 110ms"]
+[2023-12-13 00:40:07.465] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 2636ms"]
+[2023-12-13 00:40:08.433] [150820] (discord.cpp:765): JS console: ["%c[Spotify]","WS Connected"]
+[2023-12-13 00:40:08.539] [150820] (discord.cpp:765): JS console: ["%c[Spotify]","Devices updated for 31yhzuavw7ehjwccm3alkcyhikhu:",""]
+[2023-12-13 00:40:08.571] [150820] (discord.cpp:765): JS console: ["%c[Spotify]","Profile updated for 31yhzuavw7ehjwccm3alkcyhikhu: isPremium = false"]
+[2023-12-13 00:40:24.111] [151746] (region_latency_tester.cpp:72): Sending 5 latency test pings to region hongkong
+[2023-12-13 00:40:24.112] [151746] (region_latency_tester.cpp:72): Sending 5 latency test pings to region singapore
+[2023-12-13 00:40:24.112] [151746] (region_latency_tester.cpp:72): Sending 5 latency test pings to region india
+[2023-12-13 00:40:24.112] [151746] (region_latency_tester.cpp:72): Sending 5 latency test pings to region japan
+[2023-12-13 00:40:24.112] [151746] (region_latency_tester.cpp:72): Sending 5 latency test pings to region dubai
+[2023-12-13 00:40:24.422] [151746] (region_latency_tester.cpp:271): Average RTT for region hongkong is 32.25
+[2023-12-13 00:40:24.422] [151746] (region_latency_tester.cpp:271): Average RTT for region singapore is 55.25
+[2023-12-13 00:40:24.422] [151746] (region_latency_tester.cpp:271): Average RTT for region india is 114.25
+[2023-12-13 00:40:24.422] [151746] (region_latency_tester.cpp:271): Average RTT for region japan is 82.75
+[2023-12-13 00:40:24.422] [151746] (region_latency_tester.cpp:271): Average RTT for region dubai is 308.75
+[2023-12-13 00:41:10.373] [150820] (discord.cpp:765): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/635612648934735892/1156995025306128516"]
+[2023-12-13 00:41:13.774] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-13 00:41:13.855] [150820] (discord.cpp:765): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/635612648934735892/635625917623828520"]
+[2023-12-13 00:41:15.351] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:false isAfter:false"]
+[2023-12-13 00:41:16.036] [150820] (discord.cpp:765): JS console: ["Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated."]
+[2023-12-13 00:41:16.036] [150820] (discord.cpp:765): JS console: ["Deprecated as of 10.7.0. Please use highlight(code, options) instead.\nhttps://github.com/highlightjs/highlight.js/issues/2277"]
+[2023-12-13 00:41:22.404] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1183042848740876378 and undefined. jump=undefined"]
+[2023-12-13 00:41:22.974] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:41:28.382] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1181883910418862120 and undefined. jump=undefined"]
+[2023-12-13 00:41:28.931] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:41:49.276] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1180530703071465613 and undefined. jump=undefined"]
+[2023-12-13 00:41:49.916] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:41:50.292] [150820] (discord.cpp:765): JS console: ["%c[GuildMemberSubscriptions]","GuildMemberSubscriptions.subscribe(...): Potential reference leak! (6 subscriptions)"]
+[2023-12-13 00:42:07.777] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1179195473593127053 and undefined. jump=undefined"]
+[2023-12-13 00:42:08.357] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:42:40.789] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1178198941452472382 and undefined. jump=undefined"]
+[2023-12-13 00:42:41.379] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:42:52.069] [150820] (discord.cpp:765): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2023-12-13 00:43:14.195] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1176909694166634566 and undefined. jump=undefined"]
+[2023-12-13 00:43:14.781] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:43:40.894] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1175777992329400350 and undefined. jump=undefined"]
+[2023-12-13 00:43:41.881] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:44:15.911] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1174727494448971878 and undefined. jump=undefined"]
+[2023-12-13 00:44:16.555] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:45:17.499] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1173642696951349420 and undefined. jump=undefined"]
+[2023-12-13 00:45:18.156] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:45:47.210] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1172466617028988948 and undefined. jump=undefined"]
+[2023-12-13 00:45:47.733] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:46:37.996] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1171400222765764689 and undefined. jump=undefined"]
+[2023-12-13 00:46:38.819] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 00:47:10.511] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetching messages for 635625917623828520 between 1170330822281273434 and undefined. jump=undefined"]
+[2023-12-13 00:47:11.897] [150820] (discord.cpp:765): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 635625917623828520 isBefore:true isAfter:false"]
+[2023-12-13 01:06:02.641] [150852] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:193): * audioInput:
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:196): - default: Cannon Lake PCH cAVS Digital Microphone ()
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:196): - Cannon Lake PCH cAVS Headset Mono Microphone + Headphones Stereo Microphone ()
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:196): - Cannon Lake PCH cAVS Digital Microphone ()
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:198): * audioOutput:
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:201): - default: Cannon Lake PCH cAVS Speaker + Headphones ()
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:201): - Cannon Lake PCH cAVS HDMI / DisplayPort 3 Output ()
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:201): - Cannon Lake PCH cAVS HDMI / DisplayPort 2 Output ()
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:201): - Cannon Lake PCH cAVS HDMI / DisplayPort 1 Output ()
+[2023-12-13 01:06:02.642] [150852] (engine.cpp:201): - Cannon Lake PCH cAVS Speaker + Headphones ()
+[2023-12-13 01:06:02.665] [150852] (audio_engine.cpp:206): Setting audio output device: 'default'
+[2023-12-13 01:06:02.665] [150852] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-13 01:06:02.665] [150852] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-13 01:06:02.667] [150852] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-13 01:06:02.668] [150852] (audio_device_impl.cc:619): output: 1
+[2023-12-13 01:06:02.669] [150852] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-13 01:06:02.669] [150852] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-13 02:18:34.684] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-13 02:18:35.035] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 350 ms"]
+[2023-12-13 02:18:35.036] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[RESUME] resuming session c9c3d5aa805a7e7476e25cf5d3eda258, seq: 13107"]
+[2023-12-13 02:18:35.277] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[RESUMED] took 591ms, replayed 4 events, new seq: 13111"]
+[2023-12-13 02:18:35.310] [150820] (discord.cpp:765): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-13 04:01:32.549] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[WS CLOSED] (true, 1001, CloudFlare WebSocket proxy restarting) retrying in 1.99 seconds."]
+[2023-12-13 04:01:34.543] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-13 04:01:34.910] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 367 ms"]
+[2023-12-13 04:01:34.911] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[RESUME] resuming session c9c3d5aa805a7e7476e25cf5d3eda258, seq: 24739"]
+[2023-12-13 04:01:35.185] [150820] (discord.cpp:765): JS console: ["%c[GatewaySocket]","[RESUMED] took 641ms, replayed 7 events, new seq: 24746"]
+[2023-12-13 04:01:35.224] [150820] (discord.cpp:765): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]

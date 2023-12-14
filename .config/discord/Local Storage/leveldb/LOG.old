@@ -1,0 +1,6 @@
+2023/12/13-21:14:49.627 2f37 Reusing MANIFEST /home/leint/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/12/13-21:14:49.627 2f37 Recovering log #6
+2023/12/13-21:14:49.627 2f37 Reusing old log /home/leint/.config/discord/Local Storage/leveldb/000006.log 
+2023/12/13-21:17:17.869 2f37 Level-0 table #10: started
+2023/12/13-21:17:17.914 2f37 Level-0 table #10: 710886 bytes OK
+2023/12/13-21:17:17.916 2f37 Delete type=0 #6

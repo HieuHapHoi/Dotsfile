@@ -1,0 +1,18 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: play
+current: 2
+time: 125.077000
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Anime Opening Music Mix | Chill Out with Anime Songs | Anime Opening Compilation 2023.mp3
+1:umi no koe.mp3
+2:y2mate.com - Breathe Lofi Deep Focus StudyCalmHeal Lofi Hip Hop Lofi Chill .mp3
+playlist_end

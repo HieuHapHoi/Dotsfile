@@ -1,0 +1,61 @@
+2023-12-12T17:39:25.758Z 0: 
+
+----------------------------------------------
+2023-12-12T17:39:25.770Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.37"}, modulepath: /home/leint/.config/discord/0.0.37/modules
+2023-12-12T17:39:25.773Z 2: ✅ webContents.created web1 ""
+2023-12-12T17:39:25.774Z 3: ✅ window.created win1 "discord"
+2023-12-12T17:39:27.245Z 4: ✅ webContents.did-finish-load web1
+2023-12-12T17:39:35.783Z 5: ✅ webContents.created web2 ""
+2023-12-12T17:39:35.801Z 6: ✅ window.created win2 "Discord"
+2023-12-12T17:39:39.169Z 7: ✅ webContents.did-finish-load web2
+2023-12-12T17:39:39.269Z 8: window.close win1
+2023-12-12T17:39:39.344Z 9: webContents.destroyed web1
+2023-12-12T17:39:39.345Z 10: window.closed win1
+2023-12-12T23:45:42.491Z 11: window.close win2
+2023-12-13T00:11:49.205Z 0: 
+
+----------------------------------------------
+2023-12-13T00:11:49.215Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.37"}, modulepath: /home/leint/.config/discord/0.0.37/modules
+2023-12-13T00:11:49.226Z 2: ✅ webContents.created web1 ""
+2023-12-13T00:11:49.229Z 3: ✅ window.created win1 "discord"
+2023-12-13T00:11:50.689Z 4: ✅ webContents.did-finish-load web1
+2023-12-13T00:11:57.465Z 5: before-quit
+2023-12-13T00:11:57.483Z 6: window.close win1
+2023-12-13T14:09:49.265Z 0: 
+
+----------------------------------------------
+2023-12-13T14:09:49.274Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.37"}, modulepath: /home/leint/.config/discord/0.0.37/modules
+2023-12-13T14:09:49.285Z 2: ✅ webContents.created web1 ""
+2023-12-13T14:09:49.287Z 3: ✅ window.created win1 "discord"
+2023-12-13T14:09:50.780Z 4: ✅ webContents.did-finish-load web1
+2023-12-13T14:10:01.314Z 5: before-quit
+2023-12-13T14:10:01.331Z 6: window.close win1
+2023-12-13T14:11:22.893Z 0: 
+
+----------------------------------------------
+2023-12-13T14:11:22.912Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.37"}, modulepath: /home/leint/.config/discord/0.0.37/modules
+2023-12-13T14:11:22.915Z 2: ✅ webContents.created web1 ""
+2023-12-13T14:11:22.916Z 3: ✅ window.created win1 "discord"
+2023-12-13T14:11:24.433Z 4: ✅ webContents.did-finish-load web1
+2023-12-13T14:11:27.133Z 5: before-quit
+2023-12-13T14:11:27.143Z 6: window.close win1
+2023-12-13T14:14:49.650Z 0: 
+
+----------------------------------------------
+2023-12-13T14:14:49.668Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.37"}, modulepath: /home/leint/.config/discord/0.0.37/modules
+2023-12-13T14:14:49.671Z 2: ✅ webContents.created web1 ""
+2023-12-13T14:14:49.672Z 3: ✅ window.created win1 "discord"
+2023-12-13T14:14:51.168Z 4: ✅ webContents.did-finish-load web1
+2023-12-13T14:14:51.375Z 5: ✅ webContents.created web2 ""
+2023-12-13T14:14:51.392Z 6: ✅ window.created win2 "Discord"
+2023-12-13T14:14:54.281Z 7: ✅ webContents.did-finish-load web2
+2023-12-13T14:14:54.380Z 8: window.close win1
+2023-12-13T14:14:54.388Z 9: webContents.destroyed web1
+2023-12-13T14:14:54.390Z 10: window.closed win1
+2023-12-13T14:17:35.666Z 11: window.close win2
+2023-12-13T14:18:55.174Z 0: 
+
+----------------------------------------------
+2023-12-13T14:18:55.188Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.37"}, modulepath: /home/leint/.config/discord/0.0.37/modules
+2023-12-13T14:27:34.424Z 12: window.close win2
+2023-12-13T15:24:43.754Z 13: before-quit

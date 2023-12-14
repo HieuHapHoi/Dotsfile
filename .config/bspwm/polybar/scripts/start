@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+killall -q polybar
+sleep 0.2
+
+polybar -q bar -c $HOME/.config/bspwm/polybar/bar.ini
+
